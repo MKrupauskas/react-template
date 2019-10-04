@@ -1,3 +1,22 @@
+# React Template
+
+## Code guidelines
+
+- Use prettier for code formatting.
+- Prefer function components and hooks in react.
+- Components have a file structure similar to that of `src/components/App`.
+- Component files are PascalCase, all other project files and directories are kebab-case.
+
+## Used Packages
+
+- [react](https://reactjs.org/)
+- [typescript](http://www.typescriptlang.org/docs/home.html)
+- [css modules](https://github.com/css-modules/css-modules)
+- [react-bootstrap](https://react-bootstrap.github.io/)
+- [react-router](https://reacttraining.com/react-router/web/guides/quick-start)
+- [axios](https://github.com/axios/axios)
+- [jest](https://jestjs.io/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -26,6 +45,10 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run format`
+
+Run prettier formatting on the whole `src` directory.
 
 ### `npm run eject`
 
